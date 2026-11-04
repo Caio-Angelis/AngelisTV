@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AngelisTV</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>Angelis IPTV</h1>
+      <div id="lockStatus" class="lock-status unlocked">Desbloqueado</div>
+    </header>
+    <main>
+      <div id="channelList" class="channel-list"></div>
+      <div id="player" class="player">
+        <video id="videoPlayer" controls autoplay></video>
+        <div id="channelInfo" class="channel-info"></div>
+      </div>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
